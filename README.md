@@ -6,7 +6,16 @@
 
 
 
+# `Download`
 
+## `JitPack`
+
+Latest version: <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
+
+| Script Type | value |
+| ----------- | ----- |
+| `Gradle`    | `implementation 'com.github.devrath:DroidUtilToolBox:Tag'` |
+| `kts`       | `implementation 'com.github.devrath:DroidUtilToolBox:Tag'` |
 
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
