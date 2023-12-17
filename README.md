@@ -9,14 +9,39 @@
 # `Download`
 
 ## `JitPack`
+<p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
+  
+**Dependency**: `implementation("com.github.devrath:DroidUtilToolBox:Tag")`
 
-Latest version: <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
+# `Using in code`
 
-| Script Type | value |
-| ----------- | ----- |
-| `Gradle`    | `implementation 'com.github.devrath:DroidUtilToolBox:Tag'` |
-| `kts`       | `implementation 'com.github.devrath:DroidUtilToolBox:Tag'` |
+### `TYPE-1: Using App Startup library`
 
+* The App Startup library is part of the AndroidX libraries, and you can include it in your project without additional dependencies. However, checking the latest documentation or release notes for any updates or changes is crucial.
+
+`implementation("androidx.startup:startup-runtime:1.1.1")`
+
+* Add the meta data in the manifest of your project
+```manifest
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <meta-data
+            android:name="com.istudio.lib_utils.sdkConfig.SDKInitializer"
+            android:value="initializer" />
+    </application>
+</manifest>
+```
+* Add below lines in OnCreate of the application class
+```kotlin
+AppInitializer.getInstance(this).initializeComponent(SDKInitializer::class.java)
+```  
+
+### `TYPE-2: Just manually add the below lines in your Application class OnCreate`
+```kotlin
+SDKConfig.initContext(context)
+```
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
 𝙸𝚏 𝚢𝚘𝚞 𝚏𝚎𝚎𝚕 𝚕𝚒𝚔𝚎 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚖𝚎 𝚊 𝚌𝚘𝚏𝚏𝚎𝚎 𝚏𝚘𝚛 𝚖𝚢 𝚎𝚏𝚏𝚘𝚛𝚝𝚜, 𝙸 𝚠𝚘𝚞𝚕𝚍 𝚐𝚛𝚎𝚊𝚝𝚕𝚢 𝚊𝚙𝚙𝚛𝚎𝚌𝚒𝚊𝚝𝚎 𝚒𝚝.</br>
