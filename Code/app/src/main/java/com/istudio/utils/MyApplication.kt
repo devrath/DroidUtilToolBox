@@ -1,7 +1,8 @@
 package com.istudio.utils
 
 import android.app.Application
-import com.istudio.lib_utils.SDKConfig
+import androidx.startup.AppInitializer
+import com.istudio.lib_utils.sdkConfig.SDKInitializer
 
 class MyApplication : Application() {
 
@@ -13,7 +14,7 @@ class MyApplication : Application() {
     }
 
     private fun initializeSDK() {
-        SDKConfig.initContext( this)
+        AppInitializer.getInstance(this).initializeComponent(SDKInitializer::class.java)
     }
 
 }

@@ -1,4 +1,4 @@
-package com.istudio.lib_utils
+package com.istudio.lib_utils.sdkConfig
 
 import android.content.Context
 
@@ -8,10 +8,10 @@ object SDKConfig {
     private lateinit var context: Context
 
     /** ******************** Context ******************** **/
-    fun initContext(context: Context) { this.context = context }
+    fun initContext(context: Context) { SDKConfig.context = context }
 
     fun getContext(): Context {
-        if (!::context.isInitialized) {
+        if (!SDKConfig::context.isInitialized) {
             throw UninitializedPropertyAccessException("Util library is not initialized")
         }
         return context

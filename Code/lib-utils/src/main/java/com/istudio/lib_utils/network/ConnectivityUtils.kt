@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import com.istudio.lib_utils.SDKConfig
+import com.istudio.lib_utils.sdkConfig.SDKConfig
 
 object ConnectivityUtils {
 
