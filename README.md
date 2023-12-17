@@ -17,6 +17,10 @@
 
 # `𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍`
 
+| `Repository Type` | `Dependency to use in project` | `Version Tag` |
+| ----------------- | ------------------------------ | ------------- |
+| `𝙹𝚒𝚝𝙿𝚊𝚌𝚔` | `implementation("com.github.devrath:DroidUtilToolBox:Tag")` | <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p> |
+
 ## `𝙹𝚒𝚝𝙿𝚊𝚌𝚔`
 <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
   
