@@ -21,11 +21,6 @@
 | ----------------- | ------------------------------ | ------------- |
 | `𝙹𝚒𝚝𝙿𝚊𝚌𝚔` | `implementation("com.github.devrath:DroidUtilToolBox:Tag")` | <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p> |
 
-## `𝙹𝚒𝚝𝙿𝚊𝚌𝚔`
-<p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
-  
-**𝙳𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚢**: `implementation("com.github.devrath:DroidUtilToolBox:Tag")`
-
 # `𝚄𝚜𝚒𝚗𝚐 𝚒𝚗 𝚌𝚘𝚍𝚎`
 
 <div align="left">
