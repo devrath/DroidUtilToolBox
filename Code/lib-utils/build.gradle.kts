@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    kotlin("android")
+    kotlin("kapt")
     id("maven-publish")
 }
 
@@ -25,13 +26,37 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
+
+
+
+
+
 }
+
+/* publishing {
+    publications {
+        create<MavenPublication>("release") {
+            from(components.findByName("release"))
+
+            groupId = "your-group-id"
+            artifactId = "your-artifact-id"
+            version = "your-version"
+        }
+    }
+
+    repositories {
+        maven {
+            name = "Your Maven Repository"
+            url = uri("https://your-maven-repository-url")
+        }
+    }
+}*/
 
 dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
