@@ -13,15 +13,15 @@
   
 **Dependency**: `implementation("com.github.devrath:DroidUtilToolBox:Tag")`
 
-# `Using in code`
+# `𝚄𝚜𝚒𝚗𝚐 𝚒𝚗 𝚌𝚘𝚍𝚎`
 
-### `TYPE-1: Using App Startup library`
+### `𝚃𝚈𝙿𝙴-𝟷: 𝚄𝚜𝚒𝚗𝚐 𝙰𝚙𝚙 𝚂𝚝𝚊𝚛𝚝𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢`
 
-* The App Startup library is part of the AndroidX libraries, and you can include it in your project without additional dependencies. However, checking the latest documentation or release notes for any updates or changes is crucial.
-
+* 𝚃𝚑𝚎 𝙰𝚙𝚙 𝚂𝚝𝚊𝚛𝚝𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚒𝚜 𝚙𝚊𝚛𝚝 𝚘𝚏 𝚝𝚑𝚎 𝙰𝚗𝚍𝚛𝚘𝚒𝚍𝚇 𝚕𝚒𝚋𝚛𝚊𝚛𝚒𝚎𝚜, 𝚊𝚗𝚍 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚒𝚗𝚌𝚕𝚞𝚍𝚎 𝚒𝚝 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚊𝚍𝚍𝚒𝚝𝚒𝚘𝚗𝚊𝚕 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚒𝚎𝚜. 𝙷𝚘𝚠𝚎𝚟𝚎𝚛, 𝚌𝚑𝚎𝚌𝚔𝚒𝚗𝚐 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚘𝚛 𝚛𝚎𝚕𝚎𝚊𝚜𝚎 𝚗𝚘𝚝𝚎𝚜 𝚏𝚘𝚛 𝚊𝚗𝚢 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝚘𝚛 𝚌𝚑𝚊𝚗𝚐𝚎𝚜 𝚒𝚜 𝚌𝚛𝚞𝚌𝚒𝚊𝚕.
+  
 `implementation("androidx.startup:startup-runtime:1.1.1")`
 
-* Add the meta data in the manifest of your project
+* 𝙰𝚍𝚍 𝚝𝚑𝚎 𝚖𝚎𝚝𝚊 𝚍𝚊𝚝𝚊 𝚒𝚗 𝚝𝚑𝚎 𝚖𝚊𝚗𝚒𝚏𝚎𝚜𝚝 𝚘𝚏 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚓𝚎𝚌𝚝
 ```manifest
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -33,12 +33,13 @@
     </application>
 </manifest>
 ```
-* Add below lines in OnCreate of the application class
+* 𝙰𝚍𝚍 𝚝𝚑𝚎 𝚋𝚎𝚕𝚘𝚠 𝚕𝚒𝚗𝚎𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝙰𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜 𝙾𝚗𝙲𝚛𝚎𝚊𝚝𝚎
 ```kotlin
 AppInitializer.getInstance(this).initializeComponent(SDKInitializer::class.java)
 ```  
 
-### `TYPE-2: Just manually add the below lines in your Application class OnCreate`
+### `𝚃𝚈𝙿𝙴-𝟸: 𝚆𝚒𝚝𝚑𝚘𝚞𝚝 𝚞𝚜𝚒𝚗𝚐 𝙰𝚙𝚙 𝚂𝚝𝚊𝚛𝚝𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢`
+𝙰𝚍𝚍 𝚝𝚑𝚎 𝚋𝚎𝚕𝚘𝚠 𝚕𝚒𝚗𝚎𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝙰𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜 𝙾𝚗𝙲𝚛𝚎𝚊𝚝𝚎
 ```kotlin
 SDKConfig.initContext(context)
 ```
