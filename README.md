@@ -4,14 +4,23 @@
 
 🧰 𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚝𝚑𝚎 𝚜𝚍𝚔 𝚏𝚘𝚛 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚞𝚝𝚒𝚕𝚒𝚝𝚒𝚎𝚜 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚎𝚎𝚍𝚎𝚍 𝚏𝚘𝚛 𝚊 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚙𝚛𝚘𝚓𝚎𝚌𝚝
 
+<div align="center">
+
+| **`𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`** |
+| ------------------------------ |
+| [𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍]() |
+| [𝚄𝚜𝚒𝚗𝚐 𝚒𝚗 𝚌𝚘𝚍𝚎]() |
+
+</div>
 
 
-# `Download`
 
-## `JitPack`
+# `𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍`
+
+## `𝙹𝚒𝚝𝙿𝚊𝚌𝚔`
 <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p>
   
-**Dependency**: `implementation("com.github.devrath:DroidUtilToolBox:Tag")`
+**𝙳𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚢**: `implementation("com.github.devrath:DroidUtilToolBox:Tag")`
 
 # `𝚄𝚜𝚒𝚗𝚐 𝚒𝚗 𝚌𝚘𝚍𝚎`
 
