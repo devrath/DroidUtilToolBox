@@ -40,18 +40,6 @@
   
 `implementation("androidx.startup:startup-runtime:1.1.1")`
 
-* 𝙰𝚍𝚍 𝚝𝚑𝚎 𝚖𝚎𝚝𝚊 𝚍𝚊𝚝𝚊 𝚒𝚗 𝚝𝚑𝚎 𝚖𝚊𝚗𝚒𝚏𝚎𝚜𝚝 𝚘𝚏 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚓𝚎𝚌𝚝
-```manifest
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-    <application>
-        <meta-data
-            android:name="com.istudio.lib_utils.sdkConfig.SDKInitializer"
-            android:value="initializer" />
-    </application>
-</manifest>
-```
 * 𝙰𝚍𝚍 𝚝𝚑𝚎 𝚋𝚎𝚕𝚘𝚠 𝚕𝚒𝚗𝚎𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝙰𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜 𝙾𝚗𝙲𝚛𝚎𝚊𝚝𝚎
 ```kotlin
 AppInitializer.getInstance(this).initializeComponent(SDKInitializer::class.java)
