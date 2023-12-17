@@ -7,7 +7,7 @@ import android.os.Build
 import com.istudio.lib_utils.SDKConfig
 
 object ConnectivityUtils {
-    
+
     /**
      * Checks the network connectivity status.
      *
