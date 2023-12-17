@@ -22,10 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.istudio.lib_utils.sdkConfig.SDKInitializer"
-            android:value="initializer" />
     </application>
 
 </manifest>
