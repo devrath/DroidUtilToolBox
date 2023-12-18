@@ -28,6 +28,7 @@
 
 | **`Different ways`** |
 | ------------------------------ |
+| [𝙸𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚜𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚠𝚒𝚝𝚑 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-application-class) |
 | [𝚄𝚜𝚒𝚗𝚐 𝙲𝚘𝚗𝚝𝚎𝚗𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚛](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-Content-Provider) |
 | [𝚄𝚜𝚒𝚗𝚐 𝙰𝚙𝚙 𝚜𝚝𝚊𝚛𝚝‐𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-App-start%E2%80%90up-library) |
 
