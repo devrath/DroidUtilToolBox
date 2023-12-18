@@ -41,19 +41,29 @@ android {
             from(components.findByName("release"))
 
             //groupId = "io.github.devrath"
-            groupId = "com.github.devrath"
+            groupId = "devrath"
             artifactId = "DroidUtilToolBox"
             version = "1.0.5"
+
+            artifact("$buildDir/outputs/aar/${project.name}-release.aar")
         }
     }
 
-    repositories {
-        /*maven {
+   /* repositories {
+        *//*maven {
             name = "Your Maven Repository"
             url = uri("https://your-maven-repository-url")
-        }*/
+        }*//*
         maven("https://jitpack.io")
-    }
+    }*/
+
+     // Add the following block for configuring the repository
+     repositories {
+         maven {
+             name = "jitpack"
+             url = uri("https://jitpack.io")
+         }
+     }
 }
 
 dependencies {
