@@ -8,12 +8,6 @@ class MyApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
-        // Initialize the SDK here
-        initializeSDK()
-    }
-
-    private fun initializeSDK() {
         AppInitializer.getInstance(this).initializeComponent(SDKInitializer::class.java)
     }
 
