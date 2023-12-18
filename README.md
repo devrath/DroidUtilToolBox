@@ -9,7 +9,7 @@
 | **`𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`** |
 | ------------------------------ |
 | [𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍](https://github.com/devrath/DroidUtilToolBox/blob/main/README.md#%F0%9D%99%B3%F0%9D%9A%98%F0%9D%9A%A0%F0%9D%9A%97%F0%9D%9A%95%F0%9D%9A%98%F0%9D%9A%8A%F0%9D%9A%8D) |
-| [𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜](https://github.com/devrath/DroidUtilToolBox/blob/main/README.md#%F0%9D%99%BB%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90%F0%9D%9A%9C---%F0%9D%99%B3%F0%9D%9A%92%F0%9D%9A%8F%F0%9D%9A%8F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%9D-%F0%9D%9A%A0%F0%9D%9A%8A%F0%9D%9A%A2%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%8B%F0%9D%9A%9B%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%A2-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%8D%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%92%F0%9D%9A%8D) |
+| [𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜](https://github.com/devrath/DroidUtilToolBox/blob/main/README.md#%F0%9D%99%BB%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90%F0%9D%9A%9C) |
 
 </div>
 
@@ -23,14 +23,9 @@
 
 ## `𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜`
 ### `𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚠𝚊𝚢𝚜 𝚘𝚏 𝚒𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚣𝚒𝚗𝚐 𝚝𝚑𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍`
-
-<div align="left">
-
-| **`Different ways`** |
-| ------------------------------ |
-| [𝙸𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚜𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚠𝚒𝚝𝚑 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-application-class) |
-| [𝚄𝚜𝚒𝚗𝚐 𝙲𝚘𝚗𝚝𝚎𝚗𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚛](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-Content-Provider) |
-| [𝚄𝚜𝚒𝚗𝚐 𝙰𝚙𝚙 𝚜𝚝𝚊𝚛𝚝‐𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-App-start%E2%80%90up-library) |
+* [𝙸𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚜𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚠𝚒𝚝𝚑 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚕𝚊𝚜𝚜](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-application-class)
+* [𝚄𝚜𝚒𝚗𝚐 𝙲𝚘𝚗𝚝𝚎𝚗𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚛](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-Content-Provider) 
+* [𝚄𝚜𝚒𝚗𝚐 𝙰𝚙𝚙 𝚜𝚝𝚊𝚛𝚝‐𝚞𝚙 𝚕𝚒𝚋𝚛𝚊𝚛𝚢](https://github.com/devrath/DroidUtilToolBox/wiki/Initialise-library-with-App-start%E2%80%90up-library) 
 
 </div>
 
