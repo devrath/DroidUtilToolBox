@@ -40,7 +40,8 @@ android {
         create<MavenPublication>("release") {
             from(components.findByName("release"))
 
-            groupId = "io.github.devrath"
+            //groupId = "io.github.devrath"
+            groupId = "com.github.devrath"
             artifactId = "DroidUtilToolBox"
             version = "1.0.5"
         }
