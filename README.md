@@ -21,8 +21,8 @@
 | ----------------- | ------------------------------ | ------------- |
 | `𝙹𝚒𝚝𝙿𝚊𝚌𝚔` | `implementation("com.github.devrath:DroidUtilToolBox:Tag")` | <p> <a href="https://jitpack.io/#devrath/DroidUtilToolBox"><img alt="License" src="https://jitpack.io/v/devrath/DroidUtilToolBox.svg"/></p> |
 
-
-## `𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 - 𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚠𝚊𝚢𝚜 𝚘𝚏 𝚒𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚣𝚒𝚗𝚐 𝚝𝚑𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍`
+## `𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜`
+### `𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚠𝚊𝚢𝚜 𝚘𝚏 𝚒𝚗𝚒𝚝𝚒𝚊𝚕𝚒𝚣𝚒𝚗𝚐 𝚝𝚑𝚎 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍`
 
 <div align="left">
 
