@@ -35,24 +35,25 @@ android {
 
 }
 
-/* publishing {
+ publishing {
     publications {
         create<MavenPublication>("release") {
             from(components.findByName("release"))
 
-            groupId = "your-group-id"
-            artifactId = "your-artifact-id"
-            version = "your-version"
+            groupId = "io.github.devrath"
+            artifactId = "DroidUtilToolBox"
+            version = "1.0.5"
         }
     }
 
     repositories {
-        maven {
+        /*maven {
             name = "Your Maven Repository"
             url = uri("https://your-maven-repository-url")
-        }
+        }*/
+        maven("https://jitpack.io")
     }
-}*/
+}
 
 dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
