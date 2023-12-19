@@ -1,8 +1,9 @@
 package com.istudio.lib_utils.sdkConfig
 
 import android.content.Context
-import androidx.startup.Initializer
+//import androidx.startup.Initializer
 
+/*
 class SDKInitializer : Initializer<Unit> {
     override fun create(context: Context) {
         // Initialize the SDK here
@@ -13,4 +14,4 @@ class SDKInitializer : Initializer<Unit> {
         // Define dependencies here if needed
         return emptyList()
     }
-}
+}*/
