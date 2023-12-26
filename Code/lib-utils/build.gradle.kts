@@ -38,7 +38,8 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            //create<MavenPublication>("maven") {
+            create<MavenPublication>("release") {
                 //from(components.findByName("release"))
                 from(components["release"])
                 groupId = "devrath"
