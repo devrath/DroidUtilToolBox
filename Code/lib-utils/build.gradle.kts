@@ -35,25 +35,27 @@ android {
 
 }
 
- publishing {
-    publications {
-        create<MavenPublication>("release") {
-            //from(components.findByName("release"))
-            from(components["release"])
-            groupId = "devrath"
-            artifactId = "DroidUtilToolBox"
-            version = "1.3.0"
-            artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                //from(components.findByName("release"))
+                from(components["release"])
+                groupId = "devrath"
+                artifactId = "DroidUtilToolBox"
+                version = "1.4.0"
+                //artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+            }
+        }
+
+        // Add the following block for configuring the repository
+        repositories {
+            maven {
+                name = "jitpack"
+                url = uri("https://jitpack.io")
+            }
         }
     }
-
-     // Add the following block for configuring the repository
-     repositories {
-         maven {
-             name = "jitpack"
-             url = uri("https://jitpack.io")
-         }
-     }
 }
 
 dependencies {
