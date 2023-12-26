@@ -38,24 +38,14 @@ android {
  publishing {
     publications {
         create<MavenPublication>("release") {
-            from(components.findByName("release"))
-
-            //groupId = "io.github.devrath"
+            //from(components.findByName("release"))
+            from(components["release"])
             groupId = "devrath"
             artifactId = "DroidUtilToolBox"
-            version = "1.0.5"
-
+            version = "1.3.0"
             artifact("$buildDir/outputs/aar/${project.name}-release.aar")
         }
     }
-
-   /* repositories {
-        *//*maven {
-            name = "Your Maven Repository"
-            url = uri("https://your-maven-repository-url")
-        }*//*
-        maven("https://jitpack.io")
-    }*/
 
      // Add the following block for configuring the repository
      repositories {
