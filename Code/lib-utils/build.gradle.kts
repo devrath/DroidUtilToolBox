@@ -44,8 +44,8 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "devrath"
                 artifactId = "DroidUtilToolBox"
-                version = "1.4.0"
-                //artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+                version = "1.6.0"
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
             }
         }
 
