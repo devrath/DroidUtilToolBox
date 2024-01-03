@@ -38,19 +38,17 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            //create<MavenPublication>("maven") {
-            register<MavenPublication>("release") {
-                groupId = "com.github.devrath"
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "devrath"
                 artifactId = "DroidUtilToolBox"
-                version = "1.7.0"
+                version = "1.8.0"
 
-                afterEvaluate {
-                    from(components["release"])
-                }
+                // Make sure the AAR file is included as an artifact
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
             }
         }
 
-        // Add the following block for configuring the repository
         repositories {
             maven {
                 name = "jitpack"
