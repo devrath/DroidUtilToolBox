@@ -39,13 +39,14 @@ afterEvaluate {
     publishing {
         publications {
             //create<MavenPublication>("maven") {
-            create<MavenPublication>("release") {
-                //from(components.findByName("release"))
-                from(components["release"])
-                groupId = "devrath"
+            register<MavenPublication>("release") {
+                groupId = "com.github.devrath"
                 artifactId = "DroidUtilToolBox"
-                version = "1.6.0"
-                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+                version = "1.7.0"
+
+                afterEvaluate {
+                    from(components["release"])
+                }
             }
         }
 
