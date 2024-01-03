@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "devrath"
                 artifactId = "DroidUtilToolBox"
-                version = "1.8.0"
+                version = "1.9.0"
 
                 // Make sure the AAR file is included as an artifact
                 artifact("$buildDir/outputs/aar/${project.name}-release.aar")
