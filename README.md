@@ -1,4 +1,4 @@
-<h1 align="center">𝙳𝚛𝚘𝚒𝚍𝚄𝚝𝚒𝚕𝚃𝚘𝚘𝚕𝙱𝚘𝚡</h1>
+<h1 align="center">𝚄𝚝𝚒𝚕𝚃𝚘𝚘𝚕𝚋𝚘𝚡𝙰𝚕𝚌𝚑𝚎𝚖𝚢</h1>
 
 ![bannerUtils](https://github.com/devrath/DroidUtilToolBox/assets/1456191/18b284e9-ec48-4443-b1f2-a02e92db3a15)
 
